@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js 15 Starter (shadcn + typescript + react 19) [[See Demo](https://next-15-starter.netlify.app/)]
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern **Next.js 15 Starter** template featuring React 19, TypeScript 5, Tailwind CSS 3, and Shadcn UI. Pre-configured with essential developer tools and optimized VS Code settings for an efficient development experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Next.js 15 Starter Shadcn](public/screenshot-dark.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Next.js 15 Starter Shadcn](public/screenshot-light.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 What's Included
 
-## Learn More
+- **Next.js 15 (Stable)**
+- **React 19 (Stable)**
+- **TypeScript 5**
+- **ESLint 9**
+- **Prettier 3**
+- **Tailwind CSS 3**
+- **Shadcn UI**
+- **App Directory**
+- **System, Light & Dark Mode**
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏁 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- **Node.js**: Version 20.18.0 or higher
+- **Bun**: Version 1.0.0 or higher
+
+### Bun Setup
+
+1. **Install Bun**:
+    ```bash
+    curl -fsSL https://bun.sh/install | bash
+    ```
+
+2. **Verify Installation**:
+    ```bash
+    bun --version
+    ```
+
+3. **Update Bun** (if needed):
+    ```bash
+    bun upgrade
+    ```
+
+
+
+### Installation
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/devPinheiro/nextjs-15-starter.git
+    cd nextjs-15-starter
+    ```
+  
+
+2. **Install Dependencies**:
+    ```bash
+    bun install
+
+    # or with Yarn
+    yarn install
+    ```
+
+3. **Run Development Server**:
+    ```bash
+    bun dev
+
+    # or with Yarn
+    yarn dev
+    ```
+
+4. **Build for Production**:
+    ```bash
+    bun run build
+    ```
+
+    ## 🛠️ Development Features
+
+    - **Hot Reloading**: Changes reflect instantly in development
+    - **TypeScript Strict Mode**: Catch errors early with strict type checking
+    - **Code Formatting**: Automated with Prettier and ESLint
+    - **VS Code Integration**: Enhanced development with recommended extensions
+    - **Performance Optimized**: Built-in Next.js optimizations
+    - **SEO Ready**: Meta tags and OpenGraph support included
+
+    ## 📦 Project Structure
+
+    ```
+    ├── public/               # Static assets
+    |── styles/               # Global styles and Tailwind config
+    └── src/  
+        ├── app/              # Next.js 15 app directory
+        └── components/       # Reusable UI components
+            ├── ui/           # Shadcn UI components and customizations
+            ├── organisms/
+            ├── molecules/   
+        ├── lib/              # Utility functions and helpers
+        ├── hooks/            # Reusable hook functions
+    ```
+
+
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
